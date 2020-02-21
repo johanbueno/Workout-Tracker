@@ -7,10 +7,10 @@ const WorkoutSchema = new Schema({
         type: Date,
         require:true
      },
-    totalDuration : {
-         type: Number,
-         require:true
-     },
+    // totalDuration : {
+    //      type: Number,
+    //      require:true
+    //  },
      exercises : {
          type: Number,
          require:true
